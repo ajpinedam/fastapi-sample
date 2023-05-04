@@ -13,7 +13,7 @@ app = FastAPI()
 
 @app.get("/")
 async def root():
-    return {"message": "Hello Confoo Canada!"}
+    return {"message": "Hello Confoo Canada 2023!"}
 
 
 class Product(BaseModel):
